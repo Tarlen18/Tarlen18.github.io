@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Image carousel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+<div class="container">
+    <div class="image fade">
+        <img src="images/1.jpg" alt="Nature_1" width="100%">
+    </div>
+    <div class="image fade">
+        <img src="images/2.jpg" alt="Nature_2" width="100%">
+    </div>
+    <div class="image fade">
+        <img src="images/3.jpg" alt="Nature_3" width="100%">
+    </div>
+    <div class="image fade">
+        <img src="images/4.jpg" alt="Nature_4" width="100%">
+    </div>
+    <div class="image fade">
+        <img src="images/5.jpg" alt="Nature_5" width="100%">
+    </div>
+    <div class="image fade">
+        <img src="images/6.jpg" alt="Nature_6" width="100%">
+    </div>
+    <div class="image fade">
+        <img src="images/7.jpg" alt="Nature_7" width="100%">
+    </div>
+    <div class="image fade">
+        <img src="images/8.jpg" alt="Nature_8" width="100%">
+    </div>
+    <div class="image fade">
+        <img src="images/9.jpg" alt="Nature_9" width="100%">
+    </div>
+    <div class="image fade">
+        <img src="images/10.jpg" alt="Nature_10" width="100%">
+    </div>
+
+    <i id="prev" onclick="show_image(-1)" class="fa-solid fa-chevron-left"></i>
+    <i id="next" onclick="show_image(1)" class="fa-solid fa-chevron-right"></i>
+
+    <div class="dots">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
